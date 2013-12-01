@@ -11,6 +11,7 @@ public class WelcomeMsg {
 
 		} else if (args[0].equals("jess")) {
 			User user = new User("Jess");
+			user.welcomeMsg();
 
 		} else {
 			System.out.println(" [ERROR] User "+args[0]+" does not exist.");
